@@ -81,20 +81,20 @@ Integration with MetaHuman framework
 
 Local LLM deployment for offline inference
 
-👨‍💻 Author & Acknowledgment
+##👨‍💻 Author & Acknowledgment
 
-Developed by: Mohammad Kaif A. Doddamani
+Developed by:## SAI KAIRAN AND GOLLA SUKUMAR
 Course: B.Tech Computer Science (AI/ML Focus)
 Project Type: AI-Driven Interactive NPC System
 Tools: Unreal Engine 5, FastAPI, Python 3.10, OpenAI API
 
 Special thanks to open-source AI communities and Unreal developers for inspiration and support.
 
-📜 License
+##📜 License
 
 This project is shared for educational and research purposes only.
 You are free to use, modify, and present it in academic environments.
 
-🧩 Quick Recap
+##🧩 Quick Recap
 
 🎙️ Player speaks → 🧠 AI understands → 💬 NPC replies → 🔊 Voice plays → 🎮 Immersion achieved.
