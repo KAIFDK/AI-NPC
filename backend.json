@@ -1,0 +1,21 @@
+{
+  "dialogue": "A stronger sword, you say? The goblin hides are tough. For 100 gold, I can forge you a 'Goblin Bane' longsword from these steel ingots. It will serve you well. Shall I begin?",
+  "emotion": "thoughtful",
+  "actions": [
+    {
+      "action_type": "CHECK_INVENTORY",
+      "parameters": {
+        "item_name": "steel_ingots",
+        "quantity": 5
+      }
+    },
+    {
+      "action_type": "OFFER_TRADE",
+      "parameters": {
+        "item_to_give": "Goblin Bane Longsword",
+        "item_to_receive": "gold",
+        "quantity_to_receive": 100
+      }
+    }
+  ]
+}

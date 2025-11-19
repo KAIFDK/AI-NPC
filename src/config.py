@@ -1,12 +1,16 @@
+<<<<<<< HEAD
 """
 Configuration settings for AI NPC system
 """
 
+=======
+>>>>>>> 54d257d1aa249a80ffb8a3cb0ee6ccbc78041664
 import os
 from dotenv import load_dotenv
 
 load_dotenv()
 
+<<<<<<< HEAD
 # Ollama Configuration
 OLLAMA_BASE_URL = os.getenv("OLLAMA_BASE_URL", "http://localhost:11434")
 OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "mistral")
@@ -28,3 +32,10 @@ Respond naturally and conversationally. Keep responses concise (1-2 sentences).
 Be engaging and helpful."""
 
 LISTENING_TIMEOUT = 10  # seconds before timeout during listening
+=======
+MOCK_MODE = os.getenv("MOCK_MODE", "TRUE").upper() == "TRUE"
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
+MODEL_NAME = os.getenv("MODEL_NAME", "gpt-4o-mini")
+PROJECT_NAME = "AI-Driven NPC Backend"
+VERSION = "1.0.0"
+>>>>>>> 54d257d1aa249a80ffb8a3cb0ee6ccbc78041664

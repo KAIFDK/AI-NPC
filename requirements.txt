@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 SpeechRecognition==3.10.0
 pyttsx3==2.90
 python-dotenv==1.0.0
@@ -5,3 +6,10 @@ numpy==1.24.3
 scipy==1.11.1
 requests==2.31.0
 pydantic==2.0.0
+=======
+fastapi
+uvicorn
+pydantic
+requests
+openai
+>>>>>>> 54d257d1aa249a80ffb8a3cb0ee6ccbc78041664
